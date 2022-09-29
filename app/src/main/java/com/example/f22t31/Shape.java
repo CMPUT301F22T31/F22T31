@@ -20,13 +20,11 @@ public abstract class Shape {
         this.y = y;
     }
 
-    public Shape(int x, int y) {
+    Shape(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
-    interface isShape {
-        int getArea(int x, int y);
-        int getPerimeter(int x, int y);
-    }
+    public abstract int getArea(int x, int y);
+    public abstract int getPerimeter(int x, int y);
 }
