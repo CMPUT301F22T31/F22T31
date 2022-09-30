@@ -3,6 +3,7 @@ package com.example.f22t31;
 public abstract class Shape {
     private int x;
     private int y;
+    private String color = "$PUT_YOUR_CHOICE_OF_COLOR";
 
     public int getX() {
         return x;
@@ -19,6 +20,11 @@ public abstract class Shape {
     public void setY(int y) {
         this.y = y;
     }
+
+    public String getColor() { return color; }
+
+    public void setColor(String color) { this.color = color; }
+
 
     Shape(int x, int y) {
         this.x = x;
