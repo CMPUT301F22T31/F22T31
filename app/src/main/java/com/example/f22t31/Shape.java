@@ -3,7 +3,7 @@ package com.example.f22t31;
 public abstract class Shape {
     private int x;
     private int y;
-    private String color = "$PUT_YOUR_CHOICE_OF_COLOR";
+    private String color = "blue";
 
     public int getX() {
         return x;
